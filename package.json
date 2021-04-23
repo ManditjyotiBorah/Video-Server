@@ -1,20 +1,29 @@
 {
-  "name": "server",
+  "name": "video-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManditjyotiBorah/Video-Server.git"
+  },
+  "author": "Manditjyoti Borah",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManditjyotiBorah/Video-Server/issues"
+  },
+  "homepage": "https://github.com/ManditjyotiBorah/Video-Server#readme",
   "dependencies": {
-    "busboy": "^0.3.1",
+    "aws-sdk": "^2.891.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.0",
+    "formidable": "^1.2.2",
+    "mongoose": "^5.12.5",
     "multer": "^1.4.2",
-    "sessionstorage": "^0.1.0"
+    "multer-s3": "^2.9.0"
   }
 }
